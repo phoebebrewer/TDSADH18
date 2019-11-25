@@ -1,0 +1,52 @@
+html {
+  font-size: 12px;
+  font-family: 'Georgia', serif;
+  background-color:  #688A08;
+}
+
+/*
+Here is where the "Large Headline" format is set (60px font, centered, shadows, etc).
+*/
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;  
+  color: #000000F;
+ /*
+  text-shadow: 3px 3px 1px black;
+*/
+}
+
+/*
+HTML tags can be combined. Here, the paragraphs and list items are formatted the same.
+*/
+p, li {
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/*
+The formatting for the body specifies the width withing the page that the content will appear, sets the background to a shade of lavendar 
+(overridding the HTML light green), and creates a blue border (in addition to creating "padding" or blank space at the edges).
+*/
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color:#6E6E6E;
+  padding: 0 20px 20px 20px;
+ /*
+  border: 5px solid blue;
+ */
+ 
+}
+
+/*
+Images will be formatted as "blocks" (as opposed to in-line), with rounded corners and no margin between the image and nearby text.
+*/
+img {
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+}
