@@ -16,9 +16,9 @@ The following code tells the web page to use an Open Sans font that is sized 12p
 applied generally to all displayed text (unless overridden by a more specific tag).
 */
 html {
-  font-size: 16px;
-  font-family: 'Corsiva', serif;
-  background-color:  #F721A9;
+  font-size: 18px;
+  font-family: 'Courgette', serif;
+  background-color:  #573827;
 }
 
 /*
@@ -29,7 +29,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;  
-  color: #5AE8FE;
+  color: #31437C;
  /*
   text-shadow: 3px 3px 1px black;
 */
@@ -41,7 +41,7 @@ HTML tags can be combined. Here, the paragraphs and list items are formatted the
 p, li {
   font-size: 16px;  
   line-height: 3;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 /*
@@ -51,7 +51,7 @@ The formatting for the body specifies the width withing the page that the conten
 body {
   width: 800px;
   margin: 0 auto;
-  background-color:#9155FA;
+  background-color:#0E4519;
   padding: 0 20px 20px 20px;
  /*
   border: 5px solid blue;
