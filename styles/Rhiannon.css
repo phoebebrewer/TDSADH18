@@ -25,7 +25,7 @@ html {
 Here is where the "Large Headline" format is set (60px font, centered, shadows, etc).
 */
 h1 {
-  font-size: 45px;
+  font-size: 65px;
   text-align: center;
   margin: 0;
   padding: 20px 0;  
@@ -40,7 +40,7 @@ HTML tags can be combined. Here, the paragraphs and list items are formatted the
 */
 p, li {
   font-size: 16px;  
-  line-height: 3;
+  line-height: 1;
   letter-spacing: 1px;
 }
 
